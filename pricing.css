@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Rethink+Sans&family=Roboto:wght@400;500&display=swap');
+
+.Sub-heading{
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+
+.Sub-heading-intro{
+    font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 1px;
+    color: black;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 300px;
+    
+}
+
+.Title-Price{
+    text-align: center;
+    font-size: 15px;
+}
+
+.Prices{
+    text-align: center;
+}
+
+.Price-ui-left{
+    display: flexbox;
+    margin-right: auto;
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Afacad', Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+.Price-ui-left:hover{
+    transition: transform 0.7s ease;
+    transform: translateY(-40px);
+}
+
+.Price-ui-middle{
+    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10px;
+    font-family: 'Afacad', Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+.Price-ui-middle:hover{
+    transition: transform 0.7s ease;
+    transform: translateY(-40px);
+}
+
+.Price-ui-right{
+    display: flexbox;
+    margin-left: auto;
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Afacad', Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom:28px;
+}
+
+.Price-ui-right:hover{
+    transition: transform 0.7s ease;
+    transform: translateY(-40px);
+}
+
+.Title-Price{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.Prices{
+    font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    border-bottom: grey solid;
+    border-top: grey solid;
+    border-width: 2px;
+}
+
+.List-ui{
+    position: relative;
+    color: black;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.Order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-top: 35px;
+}
+
+.Order:hover{
+    transition: 0.6s ease;
+    transform: translateY(-20px);
+    opacity: 0.9;
+}
+
+
+
+
+

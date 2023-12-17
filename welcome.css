@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Rethink+Sans&family=Roboto:wght@400;500&display=swap');
+
+.Header-welcome .right-1{
+  position: absolute;
+  top: 70px;
+  right: 100px;
+  bottom: -100px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.Header-welcome .right-2{
+  position: absolute;
+  top: -10px;
+  right: 290px;
+  bottom: 0;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.Header-welcome .right-3{
+  position: absolute;
+  top: 190px;
+  right: 263px;
+  bottom: 0;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.Header-welcome{
+    position: relative;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.Welcome{
+    text-align: left;
+    font-weight: 700;
+    font-size: 85px;
+    margin-right: 600px;
+    margin-top: 100px;
+    margin-bottom: 280px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@keyframes moveRight {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(70px); /* Adjust the distance as needed */
+    }
+  }
+  
+  /* Apply the animation to the text */
+  .Welcome{
+    animation: moveRight 10s linear infinite; /* Adjust the duration as needed */
+  }
+
+  .ui .left-1{
+    top: 90px;
+    left: -460px;
+    bottom: -100px;
+    position: absolute;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+  }
+
+  .left-2{
+    top: 10px;
+    left: -300px;
+    position: absolute;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .left-3{
+    top: 190px;
+    left: -270px;
+    position: absolute;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+
+  .ui{
+    position: relative;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+  }
+
+  .Welcome-intro{
+    text-align: justify;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+  }
+
+  .Get-started{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border-style: none;
+    margin-top: 20px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .Get-started:hover{
+    transition: 0.6s ease;
+    transform: translateX(25px);
+    opacity: 0.9;
+  }
